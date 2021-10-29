@@ -1,0 +1,102 @@
+
+.grid_2{
+    margin: 100px;
+    padding: 14px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+}
+header{
+      position: relative;
+}
+
+.navbar{
+    padding: 5px;
+     background-color: rgb(255, 255, 255);
+     width: 100%;
+     position: fixed;  
+     z-index: 0; 
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100%;
+
+}
+header a{
+    font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+    float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.rightMenu{
+    float: right;
+}
+
+/* Bottom left text */
+.textOnImage{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px !important;
+  color: #464646;
+  position: absolute;
+  top: 700px;
+  left: 50px;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+.menuTitle {
+font-family: "Times New Roman", Times, serif;
+  font-size: 45px;
+    text-align: center;
+}
+.menuElement {
+  padding-top: 4px;
+}
+.menuExplain {
+font-family: Georgia, serif;
+  font-size: 12px;
+  color: rgb(90, 88, 88);
+}
+.menuName{
+font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+}
+.menu{
+}
+.dull{
+    color: rgb(77, 76, 76);
+}
+img{
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 17px;
+  line-height: 1.5em;
+}
+hr{
+    margin-left: 100px;
+    margin-right: 100px;
+    color: rgb(102, 101, 101);
+    opacity: 0.2;
+}
+.contact{
+    margin: 100px;
+    padding: 14px;
+    column-gap: 50px;
+}
